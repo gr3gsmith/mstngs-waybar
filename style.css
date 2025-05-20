@@ -56,6 +56,7 @@ window#waybar {
 #custom-cpu-monitor,
 #custom-power {
   background: @surface_container_highest;
+  opacity: 0.8;
   color: @on_surface;
   border-radius: 9999px;
   padding: 6px 14px;
