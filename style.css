@@ -1,4 +1,4 @@
-@import "colors.css";
+@import "colours.css";
 
 * {
   border: none;
@@ -19,6 +19,7 @@ window#waybar {
 /* === Workspaces as unified pill === */
 #workspaces {
   background: @surface_container;
+  opacity: 0.9;
   border-radius: 9999px;
   padding: 0px;
   margin: 0 6px;
@@ -56,7 +57,7 @@ window#waybar {
 #custom-cpu-monitor,
 #custom-power {
   background: @surface_container_highest;
-  opacity: 0.8;
+  opacity: 0.9;
   color: @on_surface;
   border-radius: 9999px;
   padding: 6px 14px;
